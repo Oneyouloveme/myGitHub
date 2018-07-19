@@ -4,7 +4,7 @@ function foo(){
 
 var obj = {
 	a : 6,
-	foo : foo
+
 }
 
-obj.foo()
+foo.apply(obj);
